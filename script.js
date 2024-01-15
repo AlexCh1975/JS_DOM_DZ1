@@ -17,7 +17,7 @@ function renderScheduleHtml(id, name, dateTime, maxUsers, currentUsers){
                     <p hidden>${id}</p>
                     <p class="item__time">${dateTime}</p>
                     <p class="item__maxusers">${maxUsers}</p>
-                    <a class="item__currentusers">${currentUsers}</a>
+                    <a data-tooltip="Кликните чтобы отписаться." class="item__currentusers">${currentUsers}</a>
                 </div>
                 <button data-togle-id="${id}" class="item__btn active">Записаться</button>
             </li>
