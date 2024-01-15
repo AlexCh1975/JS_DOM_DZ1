@@ -43,6 +43,7 @@ function createId(){
 }
 
 function changeShedule(id, current){
+    console.log(current)
     let schedules = getAllSchedules();
     schedules.forEach(shedule => {
         if(shedule.id === id){

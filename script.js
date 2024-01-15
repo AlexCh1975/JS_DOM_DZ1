@@ -54,7 +54,7 @@ function addANote(elId){
     let content = +currentUsers.textContent;
     content++;
     currentUsers.textContent = `${content}`;
-    changeShedule(elId, currentUsers);
+    changeShedule(elId, content);
 }
 
 function changeCurrentUsers(elId, element){
