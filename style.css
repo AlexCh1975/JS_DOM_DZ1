@@ -1,0 +1,37 @@
+li{
+    list-style-type:  none;
+}
+
+.item{
+    width: 800px;
+    display: grid;
+    grid-template-columns: 30% 20% 25% 25%;
+}
+
+.item__title, .item__time, 
+.item__maxusers, .item__currentusers{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item__btn{
+    width: 100;
+    height: 20px;
+    cursor: pointer;
+}
+
+.active{
+    border: 2px solid green;
+    background: greenyellow;
+}
+
+.disebled{
+    border: 2px solid red;
+    background: rgb(220, 137, 137);
+}
+
+.item__currentusers{
+    margin-top: 19px;
+    color: blue;
+}
